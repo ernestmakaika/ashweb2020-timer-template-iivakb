@@ -42,5 +42,7 @@ function settimeSubmit(event) {
   // todo:  use setInterval to create a timer.  Create a seperate function passed to  setInterval that updates the timecircle by calling "updateCircle" each second.
   // The timer should be cleared when it's complete.
 }
+
+// function setIntervalEverysecond()
 const settimeForm = document.getElementById("settime");
 settimeForm.addEventListener("submit", settimeSubmit);
